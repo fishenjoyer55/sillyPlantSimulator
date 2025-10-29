@@ -1,0 +1,39 @@
+.garden {
+    -fx-background-image: url(plantSprites/soil.png);
+    background-image: url(ghostSprites/bossGhost.png);
+    -fx-background-size: 100px 50px;
+    background-size: 100px 50px;
+}
+
+.scroll-pane {
+    -fx-background-color:transparent;
+    background-color:transparent;
+}
+
+.textMajor {
+    -fx-font-family: "Noto Sans Egyptian Hieroglyphs";
+    font-family: "Noto Sans Egyptian Hieroglyphs";
+    -fx-font-size: 20px;
+    font-size: 20px;
+    -fx-text-fill: rgb(251, 255, 139);
+    -fx-fill: rgb(251, 255, 139);
+    fill: rgb(251, 255, 139);
+}
+
+.textMinor {
+    -fx-font-family: "Noto Sans Egyptian Hieroglyphs";
+    font-family: "Noto Sans Egyptian Hieroglyphs";
+    -fx-font-size: 11px;
+    font-size: 11px;
+    -fx-fill: aliceblue;
+    fill: aliceblue;
+}
+
+.textMini {
+    -fx-font: 12px "Times New Roman";
+    font: 12px "Times New Roman";
+    -fx-fill: rgb(100, 100, 100);
+    fill: rgb(100, 100, 100);
+    -fx-font-style: italic;
+    font-style: italic;
+}
